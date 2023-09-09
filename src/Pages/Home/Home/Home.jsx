@@ -1,9 +1,12 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Admissions from '../Admissions/Admissions';
 
 const Home = () => {
     return (
         <div>
-            <h1></h1>
+            <Banner></Banner>
+            <Admissions></Admissions>
         </div>
     );
 };
