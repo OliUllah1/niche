@@ -3,7 +3,7 @@ import admissionLogo from '../../../assets/images/admission/direct-admissions-lo
 import admissionbg from '../../../assets/images/admission/home-da.webp'
 const Admissions = () => {
     return (
-        <div className='py-20 px-2 lg:px-40 flex bg-[#fff] items-start'>
+        <div className='py-20 px-2 lg:px-40 flex bg-[#f4ece7] items-start'>
             <div className='w-full'>
                 <img className='w-60' src={admissionLogo} alt="" />
                 <h2 className='font-bold text-[#102f25] text-4xl mt-8'>Get accepted without an <br className='hidden lg:block' /> application.</h2>
