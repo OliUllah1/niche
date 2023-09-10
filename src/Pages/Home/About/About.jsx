@@ -4,14 +4,15 @@ import logo1 from '../../../assets/images/about/about-logo-1.png'
 import logo2 from '../../../assets/images/about/about-logo-2.png'
 import logo3 from '../../../assets/images/about/about-logo-3.webp'
 import squiggle from '../../../assets/images/about/squiggle.png'
+import stamp from '../../../assets/images/about/stamp-everything.svg'
 import { FaCircle } from "react-icons/fa";
 
 
 
 const About = () => {
     return (
-        <>
-            <div className='bg-[#237c3a] px-2 flex lg:px-40 py-28'>
+            <div className='bg-[#237c3a] px-2 flex lg:px-40 py-28 relative'>
+                <img className='absolute -bottom-20 left-[44%] w-40' src={stamp} alt="" />
                 <div className='w-full px-5'>
                     <h1 className='px-2 ml-10 py-[10px] shadow-md rounded-lg bg-white w-24 flex items-center gap-2 text-gray-500 text-sm font-bold'>Your List <FaHeart className='text-[#237c3a]'></FaHeart></h1>
                     <div className=' ml-20 my-7'>
@@ -89,7 +90,6 @@ const About = () => {
                     <button className='font-semibold text-xl underline'>Start Exploring</button>
                 </div>
             </div>
-        </>
     );
 };
 
