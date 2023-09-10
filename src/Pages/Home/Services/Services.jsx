@@ -9,7 +9,7 @@ const Services = () => {
             <div className='text-center'>
             <p className='text-[#102f25] font-medium text-xl'>FIND YOUR NICHE</p>
             <h1 className='text-[#102f25] font-bold text-3xl mt-5 mb-3'>Your search is unique. <br className='hidden lg:block' />Just like you.</h1>
-            <img className='w-40 mx-auto' src={squiggle} alt="" />
+            <div className='stroke-[#237c3a] mx-auto my-5 stroke-[4] w-40'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 17" fill="none"><path d="M184.68 8.95006C169.95 1.68006 152.06 1.68006 137.32 8.95006C124.03 15.5101 107.9 15.5101 94.61 8.95006C79.88 1.68006 61.99 1.68006 47.25 8.95006C33.96 15.5101 17.83 15.5101 4.54 8.95006L1 7.43006"></path></svg></div>
             <p className=' text-lg text-[#102f25] mt-5'>We give you all of the data, reviews, and insights in one <br className='hidden lg:block' /> place to make your search as easy as possible.</p>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3'>

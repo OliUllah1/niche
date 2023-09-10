@@ -7,6 +7,8 @@ import About from '../About/About';
 import Information from '../Information/Information';
 import Ranking from '../Ranking/Ranking';
 import Partner from '../Partner/Partner';
+import Ads from '../Ads/Ads';
+
 
 const Home = () => {
     return (
@@ -19,6 +21,7 @@ const Home = () => {
             <Information></Information>
             <Ranking></Ranking>
             <Partner></Partner>
+            <Ads></Ads>
         </div>
     );
 };

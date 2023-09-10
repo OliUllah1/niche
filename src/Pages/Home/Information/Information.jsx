@@ -10,7 +10,7 @@ const Information = () => {
             <div className='p-20'>
             <p className='text-[#237c3a] font-medium text-xl mb-5'>CHOOSE YOUR SCHOOL</p>
             <h1 className='text-[#237c3a] font-bold text-3xl'>Everything you need to <br className='hidden lg:block' /> make your decision.</h1>
-            <img className='w-44 my-5' src={squiggle} alt="" />
+            <div className='stroke-[#237c3a] my-5 stroke-[4] w-40'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 17" fill="none"><path d="M184.68 8.95006C169.95 1.68006 152.06 1.68006 137.32 8.95006C124.03 15.5101 107.9 15.5101 94.61 8.95006C79.88 1.68006 61.99 1.68006 47.25 8.95006C33.96 15.5101 17.83 15.5101 4.54 8.95006L1 7.43006"></path></svg></div>
             <p className='text-[#333] text-lg '>With the information you care about on every <br className='hidden lg:block' /> school in America, we make it easy for you to <br className='hidden lg:block' /> compare schools and colleges to make your <br className='hidden lg:block' /> decision.</p>
             <button className='mt-7 text-[#237c3a] font-bold text-lg underline mb-4'>Compare K-12 Schools</button> <br />
             <button className='text-[#237c3a] font-bold text-lg underline'>Compare Colleges</button>

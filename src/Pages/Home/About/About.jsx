@@ -31,7 +31,7 @@ const About = () => {
                             </div>
                         </div>
                        
-                        <button className='px-5 py-1 text-sm font-semibold bg-[#c0e7ba] text-[#102f25] rounded-full' >Applied</button>
+                        <button className='px-3 py-[3px] text-xs font-semibold bg-[#c0e7ba] text-[#102f25] rounded-full' >Applied</button>
                         
                     </div>
                     </div>
@@ -54,7 +54,7 @@ const About = () => {
                             </div>
                         </div>
                        
-                        <button className='px-5 py-1 text-sm font-semibold bg-[#b9d7ee] text-[#102f25] rounded-full' >Researching</button>
+                        <button className='px-3 py-[3px] text-xs font-semibold bg-[#b9d7ee] text-[#102f25] rounded-full' >Researching</button>
                         
                     </div>
                     </div>
@@ -77,7 +77,7 @@ const About = () => {
                             </div>
                         </div>
                        
-                        <button className='px-5 py-1 text-sm font-semibold bg-[#b9d7ee] text-[#102f25] rounded-full' >Touring</button>
+                        <button className='px-3 py-[3px]  text-xs font-semibold bg-[#b9d7ee] text-[#102f25] rounded-full' >Touring</button>
                         
                     </div>
                     </div>
@@ -85,7 +85,7 @@ const About = () => {
                 <div className='w-full text-white'>
                     <p className='text-xl font-semibold'>STAY ON TRACK</p>
                     <h1 className='font-bold text-4xl my-5'>Tools to <br className='hidden lg:block' /> organize your <br className='hidden lg:block' /> school search.</h1>
-                    <img className='w-40' src={squiggle} alt="" />
+                    <div className='stroke-white my-5 stroke-[4] w-40'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 17" fill="none"><path d="M184.68 8.95006C169.95 1.68006 152.06 1.68006 137.32 8.95006C124.03 15.5101 107.9 15.5101 94.61 8.95006C79.88 1.68006 61.99 1.68006 47.25 8.95006C33.96 15.5101 17.83 15.5101 4.54 8.95006L1 7.43006"></path></svg></div>
                     <p className='mt-5 text-lg mb-7'>We'll help you build your list, track <br className='hidden lg:block' /> your progress and get new <br className='hidden lg:block' /> recommendations as your search <br className='hidden lg:block' /> narrows.</p>
                     <button className='font-semibold text-xl underline'>Start Exploring</button>
                 </div>
