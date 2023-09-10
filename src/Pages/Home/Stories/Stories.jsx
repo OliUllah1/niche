@@ -16,8 +16,8 @@ const Stories = () => {
                 <p className='text-[#237c3a] text-lg mb-8'>Real Niche Stories</p>
                 <h1 className='text-[#102f25] font-bold text-3xl'>Niche has helped millions <br className='hidden lg:block' /> of students and families<br className='hidden lg:block' /> find their fit.</h1>
                 <div className='px-20 mt-10 py-5 relative'>
-                    <img className='w-10 absolute top-0 left-10' src={quoteLeft} alt="" />
-                    <img className='w-12 absolute bottom-20 right-16' src={quoteRight} alt="" />
+                    <img className='w-14 absolute -top-3 left-6' src={quoteLeft} alt="" />
+                    <img className='w-16 absolute bottom-14 right-12' src={quoteRight} alt="" />
                     <p className='text-[#363d88] text-lg'>During my college search, I was having a difficult time narrowing down what i wanted in a school, so i used Niche to help. I especially liked looking at the rankings for different aspects of the college experience, like the campus,academics,and much more!</p>
                     <p className='text-[#363d88] text-md mt-5'>ABBY D.</p>
                     <div></div>

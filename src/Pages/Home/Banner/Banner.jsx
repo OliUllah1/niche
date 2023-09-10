@@ -14,9 +14,9 @@ const Banner = () => {
                 <p className='text-center text-xl mb-10'>Finding the right school shouldn't be hard. From K-12 to <br className='hidden lg:block' /> college to grad school, we make it easy to discover and <br className='hidden lg:block' /> connect with the best ones for you.</p>
                 <h3 className='text-xl font-semibold text-center'>START YOUR SEARCH</h3>
                 <div className='flex mt-3 items-center justify-between  gap-6'>
-                    <button className='px-7 w-full text-center py-3 bg-[#237c3a] font-bold text-[17px]'>K-12 School</button>
-                    <button className='px-7 py-3 w-full text-center bg-[#237c3a] font-bold text-[17px]'>College</button>
-                    <button className='px-7 w-full text-center py-3 bg-[#237c3a] font-bold text-[17px]'>Grad Schools</button>
+                    <button className='px-7 w-full text-center py-3 bg-[#237c3a] rounded-sm font-bold text-[17px]'>K-12 School</button>
+                    <button className='px-7 rounded-sm py-3 w-full text-center bg-[#237c3a] font-bold text-[17px]'>College</button>
+                    <button className='px-7 rounded-sm w-full text-center py-3 bg-[#237c3a] font-bold text-[17px]'>Grad Schools</button>
                 </div>
             </div>
         </div>
