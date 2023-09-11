@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEllipsisH,FaSearch,FaBars} from "react-icons/fa";
 const Navbar = () => {
     return (
-        <div className='px-2 lg:px-20 py-3 flex items-center justify-between'>
+        <div className='px-5 lg:px-20 py-3 flex items-center justify-between'>
             <button className='text-2xl text-[#237c3a] block lg:hidden'><FaBars></FaBars></button>
             <div className='flex gap-5 items-center'>
             <div className=' w-40'><a title="Niche" href="https://www.niche.com/" data-after-sherlock="true" aria-label="Niche Home"><svg class="" viewBox="0 0 550 112" xmlns="http://www.w3.org/2000/svg">
