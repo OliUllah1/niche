@@ -58,19 +58,19 @@ const About = () => {
                         
                     </div>
                     </div>
-                    <div className='lg:ml-20 ml-14'>
+                    <div className='lg:ml-20 ml-[52px]'>
                     <div className='bg-white lg:w-[80%] flex items-center  lg:px-3 px-2 py-2 rounded-md gap-3'>
                         <div className='flex lg:w-[340px] items-center gap-2 pr-10 border-r-2'>
                             <img className='lg:w-14 w-12 rounded-md' src={logo3} alt="" />
                             <div>
                                 <div className='flex items-center gap-1'>
-                                <p className='font-bold text-xs lg:text-base text-[#102f25]'>Adelphi University</p>
+                                <p className='font-bold text-[11px] lg:text-base text-[#102f25]'>Adelphi University</p>
                                 <FaCircle className='text-[#b9d7ee] lg:text-sm text-xs'></FaCircle>
                                 </div>
                                 <div className='flex items-center mt-2 gap-2'>
                                     <FaCircle className='text-[#237c3a] lg:text-base text-xs'></FaCircle>
                                     <div>
-                                        <p className='w-28 lg:w-[150px] py-[2px] lg:py-[3px] rounded-full bg-[#efefef] mb-1'></p>
+                                        <p className='w-[100px] lg:w-[150px] py-[2px] lg:py-[3px] rounded-full bg-[#efefef] mb-1'></p>
                                         <p className='w-20 lg:w-28 py-[2px] lg:py-[3px] rounded-full bg-[#efefef]'></p>
                                     </div>
                                 </div>

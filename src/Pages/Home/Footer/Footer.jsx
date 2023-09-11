@@ -17,7 +17,7 @@ const Footer = () => {
             </div>
             <h4 className='text-[#835f5f] text-lg lg:text-xl lg:ml-64 lg:-mt-5 mt-5 px-10'>Discover the schools, companies, and neighborhoods that are right for you.</h4>
             <div className='flex flex-col lg:flex-row  gap-10 mt-10'>
-                <div className='lg:w-[35%] order-2 lg:order-1 px-14 lg:px-0 lg:pl-20'>
+                <div className='lg:w-[35%] order-2 lg:order-1 px-10 lg:px-0 lg:pl-20'>
                     <ul className='text-[#2997da] lg:block grid grid-cols-2 space-y-1'>
                         <li><a className='hover:underline' href="">About Us</a></li>
                         <li><a className='hover:underline' href="">Niche For Schools</a></li>
@@ -49,7 +49,7 @@ const Footer = () => {
                     <p className='text-[#237c3a] text-center lg:text-left text-xs mt-10'>&#169;2023 Niche.com Inc.</p>
                 </div>
                 <div className='w-full order-1 lg:order-2'>
-                <ul className='flex items-center flex-col lg:flex-row  mb-10 lg:gap-14 text-[#237c3a] font-semibold text-sm lg:text-xl'>
+                <ul className='flex items-center flex-col lg:flex-row  mb-10 lg:gap-14 text-[#237c3a] font-semibold tracking-[2px] uppercase text-sm lg:text-base'>
                     <li><a className='hover:underline' href="">K-12</a></li>
                     <li><a className='hover:underline' href="">Colleges</a></li>
                     <li><a className='hover:underline' href="">Graduate Schools</a></li>

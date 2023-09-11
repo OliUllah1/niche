@@ -3,7 +3,14 @@ import squiggle from '../../../assets/images/banner/squiggle.webp'
 import logo1 from '../../../assets/images/about/about-logo-1.png'
 import logo2 from '../../../assets/images/about/about-logo-3.webp'
 import { FaCircle,FaDollarSign } from "react-icons/fa";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
+
 const Information = () => {
+    useEffect(()=>{
+        Aos.init({duration:500})
+    },[])
     return (
         <div className='lg:flex'>
             <div className='w-[100%] bg-white flex items-center justify-center'> 
@@ -17,8 +24,8 @@ const Information = () => {
             </div>
             </div>
             <div className='w-full bg-[#ff9800] flex justify-center'>
-                <div className='p-20 flex gap-7 lg:gap-10'>
-                    <div className='w-32 lg:w-48 bg-white rounded-xl'>
+                <div className='py-20 flex gap-7 lg:gap-10'>
+                    <div className='w-32 lg:w-48 bg-white rounded-xl' data-aos="zoom-in">
                         <img className='w-full h-20 lg:h-24 rounded-t-lg' src={logo2} alt="" />
                         <div className='lg:p-5 p-3'>
                         <FaCircle className='mb-1 mt-2 text-2xl lg:text-4xl text-[#237c3a]'></FaCircle>
@@ -39,7 +46,7 @@ const Information = () => {
                         </div>
                         </div>
                     </div>
-                    <div className=' w-32 lg:w-48 bg-white rounded-xl'>
+                    <div className='w-32 lg:w-48 bg-white rounded-xl' data-aos="zoom-in">
                         <img className='w-full h-20 lg:h-24 rounded-t-lg' src={logo1} alt="" />
                         <div className='lg:p-5 p-3'>
                         <FaCircle className='mb-1 mt-2 text-2xl lg:text-4xl text-[#237c3a]'></FaCircle>
