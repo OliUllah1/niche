@@ -83,11 +83,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className='w-full mb-16 lg:mt-0 text-white order-1 lg:order-2'>
-                    <p className='lg:text-xl font-semibold tracking-[3px]'>STAY ON TRACK</p>
+                    <p className='font-semibold tracking-[3px]'>STAY ON TRACK</p>
                     <h1 className='font-bold text-2xl lg:text-4xl my-5'>Tools to <br className='hidden lg:block' /> organize your <br /> school search.</h1>
                     <div className='stroke-white my-5 stroke-[4] w-40'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 17" fill="none"><path d="M184.68 8.95006C169.95 1.68006 152.06 1.68006 137.32 8.95006C124.03 15.5101 107.9 15.5101 94.61 8.95006C79.88 1.68006 61.99 1.68006 47.25 8.95006C33.96 15.5101 17.83 15.5101 4.54 8.95006L1 7.43006"></path></svg></div>
-                    <p className='mt-5 lg:text-lg mb-7'>We'll help you build your list, track <br className='hidden lg:block' /> your progress and get new <br className='hidden lg:block' /> recommendations as your search <br className='hidden lg:block' /> narrows.</p>
-                    <button className='font-semibold text-lg lg:text-xl underline'>Start Exploring</button>
+                    <p className='mt-5 lg:text-[17px] font-medium mb-7'>We'll help you build your list, track <br className='hidden lg:block' /> your progress and get new <br className='hidden lg:block' /> recommendations as your search <br className='hidden lg:block' /> narrows.</p>
+                    <button className='font-semibold text-lg underline'>Start Exploring</button>
                 </div>
             </div>
     );

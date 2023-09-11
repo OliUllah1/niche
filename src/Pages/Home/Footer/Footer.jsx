@@ -9,16 +9,16 @@ import youtube from '../../../assets/images/footer/youtube.svg'
 import {FaAngleRight } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className='px-2 lg:px-40 pb-28'>
+        <div className='px-2 lg:px-40 pb-28 lg:pt-0 pt-5'>
             <div className='flex items-center'>
-                <div className='w-20 py-[1px] bg-[#dddddd] mr-2'></div>
-                <img className='w-32 mt-5' src={logo} alt="" />
+                <div className='lg:w-20 w-full py-[1px] bg-[#dddddd] mr-2'></div>
+                <img className='lg:w-32 w-20 lg:mt-5' src={logo} alt="" />
                 <div className='w-full py-[1px] bg-[#dddddd] m-2'></div>
             </div>
-            <h4 className='text-[#835f5f] text-xl ml-72 -mt-5'>Discover the schools, companies, and neighborhoods that are right for you.</h4>
-            <div className='flex gap-10 mt-10'>
-                <div className='w-[35%] pl-20'>
-                    <ul className='text-[#2997da] space-y-1'>
+            <h4 className='text-[#835f5f] text-lg lg:text-xl lg:ml-64 lg:-mt-5 mt-5 px-10'>Discover the schools, companies, and neighborhoods that are right for you.</h4>
+            <div className='flex flex-col lg:flex-row  gap-10 mt-10'>
+                <div className='lg:w-[35%] order-2 lg:order-1 px-14 lg:px-0 lg:pl-20'>
+                    <ul className='text-[#2997da] lg:block grid grid-cols-2 space-y-1'>
                         <li><a className='hover:underline' href="">About Us</a></li>
                         <li><a className='hover:underline' href="">Niche For Schools</a></li>
                         <li><a className='hover:underline' href="">Niche For Colleges</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <li><a className='hover:underline' href="">Sitemap</a></li>
                         
                     </ul>
-                    <div className='grid grid-cols-3 gap-2 pr-10 mt-5'>
+                    <div className='grid grid-cols-3 gap-2 px-20 lg:px-0 lg:pr-10 mt-5'>
                         <img className='bg-[#ff5b00] cursor-pointer w-9 rounded-full' src={instagram} alt="" />
                         <img className='bg-[#313285] cursor-pointer w-9 rounded-full' src={facebook} alt="" />
                         <img className='bg-[#007e31] cursor-pointer w-9 rounded-full' src={twitter} alt="" />
@@ -46,22 +46,22 @@ const Footer = () => {
                         <img className='bg-[#8648de] cursor-pointer w-9 rounded-full' src={discord} alt="" />
                         <img className='bg-[#e63226] cursor-pointer w-9 rounded-full' src={youtube} alt="" />
                     </div>
-                    <p className='text-[#237c3a] text-xs mt-10'>&#169;2023 Niche.com Inc.</p>
+                    <p className='text-[#237c3a] text-center lg:text-left text-xs mt-10'>&#169;2023 Niche.com Inc.</p>
                 </div>
-                <div className='w-full'>
-                <ul className='flex items-center mb-10 gap-14 text-[#237c3a] font-semibold text-xl'>
+                <div className='w-full order-1 lg:order-2'>
+                <ul className='flex items-center flex-col lg:flex-row  mb-10 lg:gap-14 text-[#237c3a] font-semibold text-sm lg:text-xl'>
                     <li><a className='hover:underline' href="">K-12</a></li>
                     <li><a className='hover:underline' href="">Colleges</a></li>
                     <li><a className='hover:underline' href="">Graduate Schools</a></li>
                     <li><a className='hover:underline' href="">Places to Live</a></li>
                 </ul>
                 <hr />
-                <div className='flex items-center gap-1 justify-center py-3'>
+                <div className='flex flex-col lg:flex-row  items-center gap-1 justify-center py-3'>
                     <p className='text-[#747692]'>Do you work for a school or college?</p>
                     <a className='flex items-center text-[#2997da] font-semibold hover:underline' href="">Claim Your School <FaAngleRight></FaAngleRight> </a>
                 </div>
                 <hr />
-                <div className='mt-8 grid grid-cols-1 lg:grid-cols-3'>
+                <div className='mt-8 hidden lg:grid grid-cols-3'>
                     <div className=''>
                         <ul className='text-[#747692] space-y-1 text-xs'>
                             <li><a className='hover:underline' href="">College Rankings</a></li>

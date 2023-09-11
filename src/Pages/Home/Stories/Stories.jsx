@@ -9,13 +9,13 @@ import quoteRight from '../../../assets/images/stories/quote-right.png'
 import { FaCircle } from "react-icons/fa";
 const Stories = () => {
     return (
-        <div className='px-10 py-20 lg:flex gap-10 relative'>
+        <div className='px-10 lg:px-28 py-20 lg:flex gap-10 relative'>
             <img className='w-80 hidden lg:block h-80 z-0 rounded-xl absolute top-20 right-3' src={abby2} alt="" />
             <img className='w-[678px] hidden lg:block z-20 absolute top-64 -right-[23px]' src={abbyDesktop} alt="" />
             <img className='w-full lg:hidden block z-20 absolute top-[300px] left-0' src={abbyMobile} alt="" />
 
             <div className='w-full mt-10'>
-                <p className='text-[#237c3a] lg:text-lg mb-8 tracking-[3px] uppercase'>Real Niche Stories</p>
+                <p className='text-[#237c3a] mb-8 tracking-[3px] uppercase'>Real Niche Stories</p>
                 <h1 className='text-[#102f25] font-bold text-2xl lg:text-3xl'>Niche has helped millions <br className='hidden lg:block' /> of students and families<br className='hidden lg:block' /> find their fit.</h1>
                 <div className='block lg:hidden px-14 my-5'>
                     <img className='rounded-xl' src={abby1} alt="" />
@@ -40,7 +40,7 @@ const Stories = () => {
             </div>
             <div className='w-full hidden lg:block z-10 relative mt-32'>
                 <img className='rounded-xl w-[430px] object-cover' src={abby1} alt="" />
-                <img className='absolute w-48 bottom-3 right-24' src={stampFoundfrom} alt="" />
+                <img className='absolute w-44 bottom-3 right-10' src={stampFoundfrom} alt="" />
             </div>
         </div>
     );
