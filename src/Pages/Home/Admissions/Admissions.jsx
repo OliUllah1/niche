@@ -9,12 +9,12 @@ const Admissions = () => {
             
             <div className='w-full'>
                 <img className='w-60' src={admissionLogo} alt="" />
-                <h2 className='font-bold text-[#102f25] text-4xl mt-8'>Get accepted without an <br className='hidden lg:block' /> application.</h2>
-                <p className='text-[#464646]  font-medium text-lg mt-7'>No application. No waiting.</p>
-                <p className='text-[#464646]  text-lg font-medium'>With Direct Admissions, colleges can accept you based on <br className='hidden lg:block' /> the information in your Niche Profile.</p>
-                <div className='mt-7 flex gap-5'>
-                    <button className='bg-[#004436] px-7 py-2 rounded-full font-semibold text-lg text-white'>Create a Niche Profile</button>
-                    <button className='bg-white px-7 py-2 rounded-full font-semibold text-lg border-[3px] border-[#004436] text-[#004436]'>Learn More</button>
+                <h2 className='font-bold text-[#102f25] text-3xl mt-8'>Get accepted without an <br className='hidden lg:block' /> application.</h2>
+                <p className='text-[#464646] text-lg mt-7'>No application. No waiting.</p>
+                <p className='text-[#464646]  text-lg'>With Direct Admissions, colleges can accept you based on <br className='hidden lg:block' /> the information in your Niche Profile.</p>
+                <div className='mt-9 flex gap-5'>
+                    <button className='bg-[#004436] px-7 py-[6px] rounded-full font-semibold text-white'>Create a Niche Profile</button>
+                    <button className='bg-white px-7 py-[6px] rounded-full font-semibold text-lg border-[3px] border-[#004436] text-[#004436]'>Learn More</button>
                 </div>
             </div>
             <div className='w-full'>
