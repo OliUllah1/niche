@@ -32,7 +32,7 @@ const Partner = () => {
                     <FaCheckCircle className='text-blue-600 text-xl lg:text-2xl'></FaCheckCircle>
                     <a href="" className='text-[#102f25] font-semibold text-md underline'>Claim Your School</a>
                 </div>
-                <button className='px-5 py-2 lg:py-3 rounded-sm bg-[#237c3a] text-white font-semibold'>Learn More</button>
+                <button className='px-5 py-2 lg:py-3 rounded-sm bg-[#237c3a] text-white font-semibold hover:bg-[#102f25]'>Learn More</button>
                 
             </div>
             <div className='w-full relative'>

@@ -6,16 +6,20 @@ import logo3 from '../../../assets/images/about/about-logo-3.webp'
 import squiggle from '../../../assets/images/about/squiggle.png'
 import stamp from '../../../assets/images/about/stamp-everything.svg'
 import { FaCircle } from "react-icons/fa";
-
-
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
 
 const About = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
     return (
             <div className='bg-[#237c3a] px-10 flex flex-col lg:flex-row lg:px-40 lg:py-28 py-24 relative'>
                 <img className='absolute -bottom-12 left-40 lg:-bottom-20 lg:left-[44%] w-24 lg:w-40' src={stamp} alt="" />
                 <div className='w-full lg:px-5 order-2 lg:order-1'>
                     <h1 className='px-2 ml-3 lg:ml-10 py-2 lg:py-[10px] shadow-md rounded bg-white w-[90px] lg:w-24 flex items-center gap-2 text-gray-500 text-xs lg:text-sm font-bold'>Your List <FaHeart className='text-[#237c3a]'></FaHeart></h1>
-                    <div className=' ml-10 lg:ml-20 my-7'>
+                    <div className=' ml-10 lg:ml-20 my-7' data-aos="flip-up">
                     <div className='bg-white lg:w-[80%] flex items-center  lg:px-3 px-2 py-2 rounded-md gap-3'>
                         <div className='flex w-[280px] items-center gap-2 border-r-2'>
                             <img className='lg:w-14 w-12 rounded-md' src={logo1} alt="" />
@@ -35,7 +39,7 @@ const About = () => {
                         
                     </div>
                     </div>
-                    <div className='mb-7 mr-7 lg:mr-14'>
+                    <div className='mb-7 mr-7 lg:mr-14' data-aos="flip-up">
                     <div className='bg-white lg:w-[80%] flex items-center  lg:px-3 px-2 py-2 rounded-md gap-3'>
                         <div className='flex lg:w-[255px] items-center gap-2 pr-10 border-r-2'>
                             <img className='lg:w-14 w-12 rounded-md' src={logo2} alt="" />
@@ -58,7 +62,7 @@ const About = () => {
                         
                     </div>
                     </div>
-                    <div className='lg:ml-20 ml-[52px]'>
+                    <div className='lg:ml-20 ml-[52px]' data-aos="flip-up">
                     <div className='bg-white lg:w-[80%] flex items-center  lg:px-3 px-2 py-2 rounded-md gap-3'>
                         <div className='flex lg:w-[340px] items-center gap-2 pr-10 border-r-2'>
                             <img className='lg:w-14 w-12 rounded-md' src={logo3} alt="" />

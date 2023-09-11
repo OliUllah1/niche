@@ -15,8 +15,8 @@ const Admissions = () => {
                 <p className='text-[#464646] text-lg mt-7'>No application. No waiting.</p>
                 <p className='text-[#464646]  text-lg'>With Direct Admissions, colleges can accept you based on <br className='hidden lg:block' /> the information in your Niche Profile.</p>
                 <div className='mt-9 lg:flex gap-5 space-y-4 lg:space-y-0'>
-                    <button className='bg-[#004436] w-full lg:w-60 px-7 py-4 lg:py-[7px] rounded-full font-semibold text-white'>Create a Niche Profile</button>
-                    <button className='bg-white px-7 py-3 w-full lg:w-40 lg:py-[7px] rounded-full font-semibold text-lg border-[3px] border-[#004436] text-[#004436]'>Learn More</button>
+                    <button className='bg-[#004436] w-full lg:w-60 px-7 py-4 lg:py-[7px] rounded-full font-semibold text-white hover:bg-[#11352e]'>Create a Niche Profile</button>
+                    <button className='bg-white px-7 py-3 w-full lg:w-40 lg:py-[7px] rounded-full font-semibold text-lg border-[3px] border-[#004436] text-[#004436] hover:bg-[#004436] hover:text-white delay-100'>Learn More</button>
                 </div>
             </div>
             <div className='w-full hidden lg:block'>

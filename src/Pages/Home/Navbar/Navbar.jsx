@@ -20,13 +20,13 @@ const Navbar = () => {
 </svg></a></div>
             <div className='hidden lg:block'>
                 <ul className='flex gap-5 items-center font-semibold text-[#464646] text-sm'>
-                    <li><a href="">K-12</a></li>
-                    <li><a href="">Colleges</a></li>
-                    <li><a href="">Graduate Schools</a></li>
-                    <li><a href="">Scholarships</a></li>
-                    <li><a href="">Places to Live</a></li>
-                    <li><a href="" >Places to Work</a></li>
-                    <li><a href=""><FaEllipsisH></FaEllipsisH></a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="">K-12</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="">Colleges</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="">Graduate Schools</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="">Scholarships</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="">Places to Live</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href="" >Places to Work</a></li>
+                    <li><a className='hover:border-b-2 border-[#464646] hover:pb-1' href=""><FaEllipsisH></FaEllipsisH></a></li>
                 </ul>
             </div>
             </div>
